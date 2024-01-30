@@ -19,6 +19,14 @@ export default function Root({
 }
 
 export const metadata = {
-  title: "i18n within app directory - Vercel Examples",
-  description: "How to do i18n in Next.js 13 within app directory",
+  title: {
+    pt: "Título em Português",
+    en: "Title in English",
+    ja: "日本語のタイトル",
+  },
+  description: {
+    pt: "Descrição em Português",
+    en: "Description in English",
+    ja: "日本語の説明",
+  },
 };
